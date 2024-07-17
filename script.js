@@ -53,7 +53,6 @@ function joinEntities(entityA, entityB) {
 
 function changeScore(games,gamesWithScores ){
    for(let i = 0 ; i<games.length ; i++){
-    
       for(let j = 0 ; j < gamesWithScores.length ; j++){
              if (games[i].id === gamesWithScores[j].id){
                 games[i].score = gamesWithScores[j].score
