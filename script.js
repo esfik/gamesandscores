@@ -32,7 +32,7 @@ joinGamesAndScores().then((scoreGames)=>{console.log(scoreGames)})
 
 
 function joinEntities(entityA, entityB) {
-    let entityC =[]
+    let entityC = []
     for (let i = 0; i < entityB.length; i++) {
         let objectEntityB = entityB[i]
 
